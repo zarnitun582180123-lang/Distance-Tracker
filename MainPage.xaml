@@ -1,0 +1,22 @@
+﻿<ContentPage
+    x:Class="MapApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Search Bar -->
+        <SearchBar x:Name="LocationSearchBar"
+                   Placeholder="Search for a location"
+                   SearchButtonPressed="OnSearchBarButtonPressed"
+                   Margin="10" />
+
+        <!-- Map -->
+        <maps:Map x:Name="MyMap"
+                  Grid.Row="1"
+                  IsShowingUser="True"
+                  IsScrollEnabled="True"
+                  IsZoomEnabled="True"
+                  MapType="Street" />
+    </Grid>
+</ContentPage>
