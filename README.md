@@ -33,4 +33,4 @@ MapApp is a modern, cross-platform mobile and desktop application built using **
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/MapApp.git](https://github.com/your-username/MapApp.git)
+   git clone [https://github.com/zarnitun/MapApp.git](https://github.com/zarnitun/MapApp.git)
